@@ -1,0 +1,243 @@
+/*======================= log in form */
+
+.container-fluid {
+    display: flex;
+    text-align: center;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding: 20px 350px;
+    background: whitesmoke;
+}
+
+.bank3 {
+    padding-left: 150px;
+}
+
+.bank3 h1 {
+    padding-bottom: 20px;
+}
+
+.bank3 h1 a {
+    text-decoration: none;
+}
+
+.bank3 h1 a:hover {
+    text-decoration: underline;
+    color: #e67e22;
+}
+
+span {
+    font-size: 80px;
+}
+
+.bank3 p {
+    color: black;
+    font-weight: 600;
+}
+
+.openBtn {
+    display: flex;
+    justify-content: left;
+}
+
+.openButton {
+    border: none;
+    border-radius: 5px;
+    background-color: #e67e22;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    /* position: fixed; */
+}
+
+.openButton a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.loginPopup {
+    display: flex;
+    padding-left: 300px;
+    /* position: relative; */
+    text-align: center;
+    width: 50%;
+}
+
+.formPopup {
+    display: flex;
+    /* position: fixed; */
+    text-decoration: none;
+    left: 45%;
+    /* transform: translate(-50%, 5%); */
+    /* z-index: 1; */
+}
+
+.formContainer {
+    width: 500px;
+    margin-left: 70px;
+    height: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.formContainer input[type=text],
+.formContainer input[type=password] {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 80px;
+    /* margin: 5px 0 20px 0; */
+    border: none;
+    background: #eee;
+}
+
+.formContainer input[type=text]:focus,
+.formContainer input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    outline-width: 60px;
+}
+
+.btn{
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    /* opacity: 0.8; */
+}
+
+.formContainer .login {
+    background-color: #e67e22;
+}
+/* .formContainer .cancel {
+    background-color: #cc0000;
+} */
+
+.formContainer .btn:hover,
+.openButton:hover {
+    opacity: 1;
+}
+
+.fa-key {
+    font-size: 30px !important;
+}
+
+.pass-word {
+    font-size: 30px;
+}
+
+label {
+    font-size: 30px;
+}
+
+.enroll {
+    font-size: 30px;
+}
+
+/*======================== end of log in form */
+
+
+@media only screen and (max-width: 600px) {
+    .container-fluid {
+        padding: 60px 7px;
+    }
+
+    .bank3 p {
+        font-size: 40px;
+        color: black;
+        font-weight: 600;
+    }
+
+    .loginPopup {
+        display: flex;
+        padding-left: 100px;
+        position: relative;
+        /* text-align: center; */
+        width: 50%;
+    }
+
+    .formPopup {
+        display: flex;
+        /* position: fixed; */
+        text-decoration: none;
+        left: 45%;
+        /* transform: translate(-50%, 5%); */
+        /* z-index: 9; */
+    }
+
+    .formContainer {
+        width: 500px;
+        margin-left: 70px;
+        height: 10px;
+        padding: 20px;
+        background-color: #fff;
+    }
+
+    .formContainer input[type=text],
+    .formContainer input[type=password] {
+        width: 100%;
+        font-size: 30px;
+        /* text-align: center; */
+        padding: 15px;
+        border-radius: 80px;
+        margin: 5px 0 20px 0;
+        border: none;
+        background: #eee;
+    }
+
+    .formContainer input[type=text]:focus,
+    .formContainer input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+        outline-width: 60px;
+    }
+
+    .formContainer .btn {
+        padding: 30px 71px;
+        border: none;
+        margin-top: 8px;
+        border-radius: 99px;
+        font-size: 40px;
+        color: #fff;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: -17px;
+    }
+    .btn{
+        display: flex;
+        width: 10rem;
+        justify-content: space-between;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+        width: 100%;
+        /* opacity: 0.8; */
+    }
+
+    .formContainer .cancel {
+        background-color: #cc0000;
+    }
+
+    .enroll {
+        font-size: 30px;
+    }
+
+    a {
+        color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+        text-decoration: underline;
+    }
+}
